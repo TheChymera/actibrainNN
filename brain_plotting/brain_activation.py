@@ -9,8 +9,6 @@ def plot_activation_by_ID(identifier):
 	localizer_tmap_filename = localizer_dataset.tmaps[1]
 	plotting.plot_glass_brain(localizer_tmap_filename,
 	threshold=3)
-	plt.show()
 
 def plot_activation_by_data(localizer_data):
 	plotting.plot_glass_brain(localizer_data, threshold=3)
-	plt.show()
